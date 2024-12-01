@@ -1,0 +1,17 @@
+{
+    "name": "rtb/bidding-system",
+    "description": "Real-Time Bidding System for Native Campaign Response",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RTB\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
+}

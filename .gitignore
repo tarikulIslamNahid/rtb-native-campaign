@@ -1,0 +1,45 @@
+# Dependencies
+/vendor/
+composer.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Cache and logs
+/var/
+/logs/
+*.log
+*.cache
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHPUnit
+.phpunit.result.cache
+/coverage/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Build files
+/build/
+/dist/
+
+# Application specific
+/storage/*.key
